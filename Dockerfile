@@ -4,7 +4,7 @@ FROM node:slim
 WORKDIR /usr/src/app
 
 #Install app dependencies
-COPY /react-redux-realworld-example-app /usr/src/app
+COPY . /usr/src/app
 
 #Install app
 RUN npm install
